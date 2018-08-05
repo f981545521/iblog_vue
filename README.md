@@ -1,6 +1,6 @@
 # iblog_vue
 
-> iblog vue project
+> iblog vue 工程
 
 ## Build Setup
 
