@@ -1,13 +1,19 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-view/>
+    <!--<router-view/>-->
+    <Events />
   </div>
 </template>
 
 <script>
+import Events from './components/Event'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Events
+  }
 }
 </script>
 
