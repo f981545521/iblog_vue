@@ -1,14 +1,14 @@
 <template>
     <div>
+      <h4>新闻组件</h4>
+      <ul>
+        <li><router-link to="new-detail/111">1111</router-link></li>
+        <li><router-link to="new-detail/222">2222</router-link></li>
+        <li><router-link to="new-detail/333">3333</router-link></li>
+      </ul>
       <v-header ref="header" :title="title" :run="run"></v-header>
       <button @click="getChildData()">获取子组件的数据和 方法</button>
       <v-life v-if="flag"></v-life>
-      <h4>新闻组件</h4>
-      <ul>
-        <li>1111</li>
-        <li>2222</li>
-        <li>3333</li>
-      </ul>
 
       <button @click="flag = !flag">挂载卸载Life组件</button>
 

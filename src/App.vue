@@ -3,8 +3,11 @@
     <img src="./assets/logo.png">
     <!--<router-view/>-->
     <!--<Events />-->
-    <v-news />
-    <v-home />
+<!--    <v-news />
+    <v-home />-->
+    <router-link to="/home">首页</router-link>
+    <router-link to="/news">新闻</router-link>
+    <router-view></router-view>
   </div>
 </template>
 
