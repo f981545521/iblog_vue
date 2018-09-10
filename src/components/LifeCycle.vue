@@ -37,7 +37,7 @@
         updated(){
           console.log("数据更新完成")
         },
-        beforeDestroy(){/*页面销毁的时候，要保存一些数据，在这里保存*/
+        beforeDestroy(){/*页面销毁的时候，要保Vue.component存一些数据，在这里保存*/
           console.log("实例销毁之前")
         },
         destroyed(){
